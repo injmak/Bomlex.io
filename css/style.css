@@ -324,13 +324,17 @@ input::-moz-placeholder{
     font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
+.box-4-cont-text p{
+    width: 1005px;
+}
+
 .box-4-cont-text1{
     margin-top: 63px;
 }
 .box-4-cont-text1::before{
     content: '';
     float: left;
-    margin: 0 6px 0 0;
+    margin: -30px 25px 0 0;
     height: 143px;
     width: 143px;
     background: url("../img/ico-box-4-1.png") no-repeat;
@@ -338,6 +342,7 @@ input::-moz-placeholder{
 }
 .box-4-cont-text2{
     margin-top: 100px;
+    padding-left: 108px;
 }
 .box-4-cont-text2 p{
     /*float: left;*/
@@ -358,12 +363,13 @@ input::-moz-placeholder{
 .box-4-cont-text3::before{
     content: '';
     float: left;
-    margin: 0 6px 0 0;
+    margin: -16px 20px 0 0;
     height: 114px;
     width: 157px;
     background: url("../img/ico-box-4-3.png") no-repeat;
     display: block;
 }
+
 
 
 /**/
