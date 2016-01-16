@@ -434,6 +434,10 @@ input::-moz-placeholder{
     float: left;
     width: 50%;
 }
+.box-5-right img{
+    width: 600px;
+    height: 373px;
+}
 .box-5-cont-text p{
     margin-top: 30px;
     font-size: 16px;
@@ -612,4 +616,38 @@ input::-moz-placeholder{
     width: 28px;
     height: 24px;
     background: url("../img/soc-google.png") no-repeat;
+}
+
+
+/*SLIDER*/
+.slider {
+    margin-top: 92px;
+    margin-left: 28px;
+    position: relative;
+    overflow: hidden;
+}
+.slider-prev{
+    float: left;
+    margin: -205px 0 0 36px;
+    position: relative;
+    z-index: 99;
+    cursor: pointer;
+    width: 24px;
+    height: 42px;
+    background: url("../img/arrow-left.png") no-repeat;
+}
+.slider-next{
+    float: left;
+    margin: -205px 0 0 567px;
+    position: relative;
+    z-index: 98;
+    cursor: pointer;
+    width: 24px;
+    height: 42px;
+    background: url("../img/arrow-right.png") no-repeat;
+}
+
+
+.slick-dots li{
+    display: inline-block;
 }
