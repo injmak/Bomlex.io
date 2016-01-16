@@ -187,6 +187,7 @@ header{
     font-size: 18px;
 }
 .form-editors input{
+    font-size: 16px;
     margin-right: 30px;
     width: 245px;
     height: 25px;
@@ -215,7 +216,10 @@ input::-moz-placeholder{
 }
 .box-2-cont div{
     float: left;
-    width: 50%;
+    /*width: 49%;*/
+}
+.box-2-left{
+    width: 49%;
 }
 .box-2-left p{
     margin-top: 25px;
@@ -227,9 +231,17 @@ input::-moz-placeholder{
 }
 .box-2-right{
     font-size: 14px;
+    width: 49%;
 }
 .box-2-right>div{
     float: left;
+}
+.box-2-right-p1{
+    margin-left: 2px;
+    width: 294px;
+}
+.box-2-right-p1 p{
+    width: 290px;
 }
 .box-2-right-car{
     margin-top: 90px;
@@ -237,7 +249,7 @@ input::-moz-placeholder{
 .box-2-right-car::before{
     content: '';
     float: left;
-    margin: 0 6px 0 0;
+    margin: -12px 12px 0 0;
     height: 54px;
     width: 66px;
     background: url("../img/ico-box-2-r-car.png") no-repeat;
@@ -249,7 +261,7 @@ input::-moz-placeholder{
 .box-2-right-hand::before{
     content: '';
     float: left;
-    margin: 0 6px 0 0;
+    margin: -20px 12px 0 0;
     height: 72px;
     width: 72px;
     background: url("../img/ico-box-2-r-hand.png") no-repeat;
@@ -262,20 +274,24 @@ input::-moz-placeholder{
 .box-2-right-label::before{
     content: '';
     float: left;
-    margin: 0 6px 0 0;
+    margin: -18px 12px 0 0;
     height: 72px;
     width: 72px;
     background: url("../img/ico-box-2-r-label.png") no-repeat;
     display: block;
 }
 
+.box-2-right-p2{
+    margin-left: 30px;
+    width: 262px;
+}
 .box-2-right-find{
     margin-top: 90px;
 }
 .box-2-right-find::before{
     content: '';
     float: left;
-    margin: 0 6px 0 0;
+    margin: -12px 12px 0 0;
     height: 58px;
     width: 62px;
     background: url("../img/ico-box-2-r-find.png") no-repeat;
@@ -288,7 +304,7 @@ input::-moz-placeholder{
 .box-2-right-clock::before{
     content: '';
     float: left;
-    margin: 0 6px 0 0;
+    margin: -18px 12px 0 0;
     height: 65px;
     width: 65px;
     background: url("../img/ico-box-2-r-clock.png") no-repeat;
@@ -315,33 +331,47 @@ input::-moz-placeholder{
     font-size: 30px;
     font-weight: bold;
 }
+.h24-text{
+    font-size: 24px;
+}
+.spacing-text{
+    letter-spacing: 1px;
+}
 .img-steps{
     margin-top: 37px;
 }
-.img-steps img{
+.img-steps>div{
     display: inline-block;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 190px;
+    text-align: center;
 }
 .text-steps{
-    margin-top: 28px;
+    margin-top: 18px;
 }
-.text-steps p{
-    /*margin-left: 5px;*/
+.text-steps div{
     float: left;
-    width: 194px;
+    width: 195px;
     font-size: 16px;
     text-align: center;
 }
+.text-steps p{
+    width: 177px;
+}
 .box-3-cont-text-1{
-    margin-top: 50px;
+    margin-top: 44px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    text-align: center;
 }
 .box-3-cont-text-1 p,
 .box-3-cont-text-3 p,
 .box-3-cont-text-2 p{
-    margin-top: 35px;
-    text-align: center;
+    /*width: 874px;*/
+    padding: 0 171px;
+    margin-top: 24px;
     font-size: 18px;
+    text-align: center;
+
 }
 
 /*BOX - 4*/
@@ -442,7 +472,7 @@ input::-moz-placeholder{
     margin-top: 30px;
     font-size: 16px;
 }
-.box-5-cont-text-b{
+.bold-text{
     font-weight: bold;
 }
 
